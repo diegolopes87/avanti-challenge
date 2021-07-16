@@ -1,0 +1,17 @@
+.daily-deal-wrapper {
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.daily-deal {
+  display: flex;
+  justify-content: space-between;
+}
+.daily-deal-banner {
+  height: 300px;
+  width: 300px;
+  background-image: url("https://picsum.photos/id/10/300/300");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,31 @@
+$shopping-cart-color: #df2f1a;
+
+.shopping-cart-wrapper {
+  width: 40px;
+  height: 40px;
+}
+.btn-shopping-cart {
+  border: none;
+  height: 100%;
+  width: 100%;
+  box-shadow: 0px 0px 8px #00000040;
+  background-color: white;
+  border-radius: 4px;
+  opacity: 1;
+}
+
+.cart-counter {
+  background-color: $shopping-cart-color;
+  height: 20px;
+  width: 36px;
+  font-size: 12px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  color: white;
+  position: relative;
+  right: -15px;
+  top: -50px;
+}
